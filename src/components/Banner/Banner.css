@@ -1,0 +1,23 @@
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  color: white;
+  background-color: rgb(79, 118, 132);
+  margin: 0;
+  height: 45em;
+}
+
+.banner-title{
+  font-size: 3.2rem;
+}
+
+.banner-description{
+  font-size: 1.6rem;
+}
+
+.banner-action{
+  font-size: 1.2rem;
+}
