@@ -3,7 +3,7 @@ import Banner from "../../components/Banner/Banner"
 // import Mission from "../../components/Mission/Mission"
 import NavBar from "../../components/NavBar/NavBar"
 // import Pricing from "../../components/Pricing/Pricing"
-// import SubBanner from "../../components/SubBanner/SubBanner"
+import SubBanner from "../../components/SubBanner/SubBanner"
 
 //styling
 import './LandingPage.css'
@@ -13,10 +13,10 @@ function LandingPage() {
     <main>
       <NavBar />
       <Banner />
-      {/* <SubBanner />
-      <AboutSchool />
+      <SubBanner />
+      {/* <AboutSchool />
       <Mission />
-      <Pricing /> */}
+      <Pricing /> */} 
     </main>
   )
 }
