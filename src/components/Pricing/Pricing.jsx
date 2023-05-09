@@ -3,7 +3,7 @@ import './Pricing.css'
 function Pricing () {
   return (
     <>
-      <h2 className='pricing-header'>Driving Rates</h2>
+      <h2 className='pricing-header' id='pricing'>Driving Rates</h2>
         <div className="reg-class-pricing card">
           <h3 className='rate-title'>2 Hour Lessons</h3>
           <p className='rate-price'>Price: $150</p>
