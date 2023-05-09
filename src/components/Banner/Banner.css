@@ -18,7 +18,7 @@ header{
 .banner-title{
   margin-top: 55px;
   margin-bottom: 10px;
-  font-size: 32px;
+  font-size: 34px;
   width: 275px;
   color: var(--blue-color);
   font-weight: 700;
@@ -26,9 +26,9 @@ header{
 }
 
 .banner-description{
-  font-size: 12px;
+  font-size: 14px;
   color: white;
-  width: 250px;
+  width: 265px;
 }
 
 .logo-banner{
