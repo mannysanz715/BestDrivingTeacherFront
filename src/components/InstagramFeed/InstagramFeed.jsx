@@ -13,6 +13,10 @@ function InstagramFeed () {
   return (
     <section className='instagram-feed-container'>
       <PhotoCard photos={photos}/>
+      <a className='insta-action' href='https://www.instagram.com/best_driving_teacher/' alt='instagram' target='_blank' rel="noreferrer">
+        <img className='insta-logo' src="/assets/insta-logo.png" />      
+        <h4 className='insta-action'>Follow us on Instagram</h4>
+      </a>
     </section>
 )
 }
