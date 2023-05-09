@@ -4,7 +4,7 @@ header{
   align-items: center;
   position: absolute;
   width: 100vw;
-  height: 546px;
+  height: 620px;
   left: 0px;
   top: 90px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/assets/BestDrivingBackground.jpg');
@@ -34,5 +34,23 @@ header{
 .logo-banner{
   width: 255px;
   margin-top: 13px;
+  margin-bottom: 40px;
   font-weight: 500;
+}
+
+.button{
+  width: 200px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.call-button{
+  margin-bottom: 40px;
+  background-color: var(--blue-color) ;
+}
+
+.rates-button{
+  background-color: var(--red-color);
 }
