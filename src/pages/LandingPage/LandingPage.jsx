@@ -1,9 +1,9 @@
-import AboutSchool from "../../components/AboutSchool/AboutSchool"
+// import AboutSchool from "../../components/AboutSchool/AboutSchool"
 import Banner from "../../components/Banner/Banner"
-import Mission from "../../components/Mission/Mission"
+// import Mission from "../../components/Mission/Mission"
 import NavBar from "../../components/NavBar/NavBar"
-import Pricing from "../../components/Pricing/Pricing"
-import SubBanner from "../../components/SubBanner/SubBanner"
+// import Pricing from "../../components/Pricing/Pricing"
+// import SubBanner from "../../components/SubBanner/SubBanner"
 
 //styling
 import './LandingPage.css'
