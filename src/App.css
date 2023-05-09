@@ -1,3 +1,8 @@
 :root{
-  --red-color: #fd1e1e;
+  --red-color: #ED1B24;
+  --blue-color: #0093FE;
+}
+
+*{
+  font-family: 'Inter', sans-serif;
 }

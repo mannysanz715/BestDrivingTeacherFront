@@ -1,6 +1,7 @@
 import AboutSchool from "../../components/AboutSchool/AboutSchool"
 import Banner from "../../components/Banner/Banner"
 import Mission from "../../components/Mission/Mission"
+import NavBar from "../../components/NavBar/NavBar"
 import Pricing from "../../components/Pricing/Pricing"
 import SubBanner from "../../components/SubBanner/SubBanner"
 
@@ -10,12 +11,12 @@ import './LandingPage.css'
 function LandingPage() {
   return (
     <main>
-      <h1 className="page-title">Grace Driving Instructor</h1>
+      <NavBar />
       <Banner />
-      <SubBanner />
+      {/* <SubBanner />
       <AboutSchool />
       <Mission />
-      <Pricing />
+      <Pricing /> */}
     </main>
   )
 }
