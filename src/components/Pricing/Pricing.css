@@ -31,3 +31,12 @@
 .rate-description{
   width: 250px;
 }
+
+.policies-link{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 350px;
+}
