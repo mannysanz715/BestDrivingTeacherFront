@@ -15,6 +15,11 @@
   padding: 15px;
   border-radius: 15px;
   background-color: #ECECEC;
+  margin-bottom: 50px;
+}
+
+.end{
+  margin-bottom: 100px; 
 }
 
 .rate-title{
@@ -36,7 +41,7 @@
   display: flex;
   margin: 0 auto;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   color: black;
   width: 350px;
 }

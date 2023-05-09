@@ -11,7 +11,7 @@ function Pricing () {
           <p className='rate-description'>This includes pick up and drop off within Los Angeles</p>
           <p className='rate-description'>Training during the entire lesson.</p>
         </div>
-        <div className="drive-test-pricing card">
+        <div className="drive-test-pricing card end">
           <h3 className='rate-title'>Behind the Wheel Test</h3>
           <p className='rate-price'>Price: $225</p>
           <p className='rate-description'>This includes pick up within Los Angeles 1 hour prior to DMV appointment time.</p>

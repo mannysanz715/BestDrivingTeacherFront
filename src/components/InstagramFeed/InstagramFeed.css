@@ -1,0 +1,14 @@
+.instagram-feed-container{
+  background: linear-gradient(0deg, rgba(63, 63, 63, 0.8), rgba(66, 66, 66, 0.8)), url('/assets/downtown.JPG');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 620px;
+  left: 80px;
+  background-position: 0;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+.action-banner-container{
+  background-color: var(--red-color);
+  margin: 0;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action-banner-title{
+  margin: 0 0 50px 0 ;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.action-banner-button{
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 60px;
+  font-size: 22px;
+  border: 2px solid white;
+  padding: 20px;
+  border-radius: 35px;
+}
