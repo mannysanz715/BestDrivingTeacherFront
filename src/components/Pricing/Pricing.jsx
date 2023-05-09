@@ -1,23 +1,24 @@
+import './Pricing.css'
+
 function Pricing () {
   return (
     <>
-      <h2>Driving Rates</h2>
-      <div className="pricing-container">
-        <div className="reg-class-pricing">
-          <h3>2 Hour Lessons</h3>
-          <p>Our 2 hour lesson pack starts at $150</p>
-          <p>This includes pick up and drop off within Los Angeles, and training during the entire lesson.</p>
+      <h2 className='pricing-header'>Driving Rates</h2>
+        <div className="reg-class-pricing card">
+          <h3 className='rate-title'>2 Hour Lessons</h3>
+          <p className='rate-price'>Price: $150</p>
+          <p className='rate-description'>This includes pick up and drop off within Los Angeles</p>
+          <p className='rate-description'>Training during the entire lesson.</p>
         </div>
-        <div className="drive-test-pricing">
-          <h3>Behind the Wheel Test</h3>
-          <p>Our Behind the Wheel Test starts at $225</p>
-          <p>This includes pick up within Los Angeles 1 hour prior to DMV appointment time.</p>
-          <p>All registration and paper work taken care of.</p>
-          <p>Vehicle for the actual exam.</p>
-          <p>And drop off in Los Angeles</p>
-          <p><strong>This is a flat rate, whether student passes or fails</strong></p>
+        <div className="drive-test-pricing card">
+          <h3 className='rate-title'>Behind the Wheel Test</h3>
+          <p className='rate-price'>Price: $225</p>
+          <p className='rate-description'>This includes pick up within Los Angeles 1 hour prior to DMV appointment time.</p>
+          <p className='rate-description'>All registration and paper work taken care of.</p>
+          <p className='rate-description'>Vehicle for the actual exam.</p>
+          <p className='rate-description'>And drop off in Los Angeles</p>
+          <p className='rate-description'><strong>This is a flat rate, whether student passes or fails</strong></p>
         </div>
-      </div>
     </>
 )
 }

@@ -1,0 +1,33 @@
+.pricing-header{
+  color: var(--blue-color);
+  width: 100vw;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ECECEC;
+}
+
+.rate-title{
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 22px;
+}
+
+.rate-price{
+  text-align: center;
+  font-weight: bold;
+}
+
+.rate-description{
+  width: 250px;
+}

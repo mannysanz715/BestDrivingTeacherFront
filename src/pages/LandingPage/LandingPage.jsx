@@ -2,7 +2,7 @@
 import Banner from "../../components/Banner/Banner"
 // import Mission from "../../components/Mission/Mission"
 import NavBar from "../../components/NavBar/NavBar"
-// import Pricing from "../../components/Pricing/Pricing"
+import Pricing from "../../components/Pricing/Pricing"
 import SubBanner from "../../components/SubBanner/SubBanner"
 
 //styling
@@ -14,9 +14,10 @@ function LandingPage() {
       <NavBar />
       <Banner />
       <SubBanner />
-      {/* <AboutSchool />
+      <Pricing /> 
+      {/* 
       <Mission />
-      <Pricing /> */} 
+      */} 
     </main>
   )
 }
