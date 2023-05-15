@@ -4,7 +4,7 @@ function Pricing () {
   return (
     <>
       <h2 className='pricing-header' id='pricing'>Driving Rates</h2>
-    <Link className='policies-link' to='/policies'>Before booking, please go over our policies here.</Link>
+        <Link className='policies-link' to='/policies'>Before booking, please go over our policies here.</Link>
         <div className="reg-class-pricing card">
           <h3 className='rate-title'>2 Hour Lessons</h3>
           <p className='rate-price'>Price: $150</p>
