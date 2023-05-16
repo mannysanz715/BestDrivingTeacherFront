@@ -8,10 +8,32 @@
   width: 100%;
   height: 80px;
   padding: 10px;
+  margin-bottom: 0;
   color: white;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .policies-list{
-  
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 25px;
+}
+
+.policy-item{
+  background-color: white;
+  padding: 30px;
+  height: 150px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
