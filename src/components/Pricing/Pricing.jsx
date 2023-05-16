@@ -1,10 +1,13 @@
 import './Pricing.css'
 import { Link } from 'react-router-dom'
 function Pricing () {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
   return (
     <>
       <h2 className='pricing-header' id='pricing'>Driving Rates</h2>
-        <Link className='policies-link' to='/policies'>Before booking, please go over our policies here.</Link>
+        <Link onClick={scrollToTop} className='policies-link' to='/policies#policies-container'>Before booking, please go over our policies here.</Link>
         <div className="reg-class-pricing card">
           <h3 className='rate-title'>2 Hour Lessons</h3>
           <p className='rate-price'>Price: $150</p>
