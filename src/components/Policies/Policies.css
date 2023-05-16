@@ -1,11 +1,10 @@
 .policies-container{
   margin-top: 90px;
-  
+  width: 100%;
 }
 
 .policies-heading{
   background-color: var(--red-color);
-  width: 100%;
   height: 80px;
   padding: 10px;
   margin-bottom: 0;
