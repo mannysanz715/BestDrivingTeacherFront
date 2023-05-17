@@ -21,3 +21,23 @@ nav{
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
   z-index: 2;
 }
+
+.drop-menu{
+  top: 0;
+  padding: 10px 20px 10px 20px;
+  position: fixed;
+  margin-top: 90px;
+  background-color: white;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-item{
+  height: 30px;
+  padding-right: 35px;
+  margin: 3px;
+}

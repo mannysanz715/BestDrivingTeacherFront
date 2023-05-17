@@ -2,11 +2,25 @@ import PhotoCard from '../PhotoCard/PhotoCard'
 import './InstagramFeed.css'
 
 const photos = [
-  '/assets/photo1.png',
-  '/assets/photo2.png',
-  '/assets/photo3.png',
-  '/assets/photo4.png',
-  '/assets/photo5.png',
+  {
+    classList : 'animate__animated animate__fadeIn insta-photo',
+    src : '/assets/photo1.png'},
+  { 
+    classList : 'animate__animated animate__fadeIn insta-photo',
+    src : '/assets/photo2.png'
+  },
+  { 
+    classList : 'animate__animated animate__fadeIn insta-photo',
+    src : '/assets/photo3.png'
+  },
+  {
+    classList : 'animate__animated animate__fadeIn insta-photo',
+    src : '/assets/photo4.png'
+  },
+  {
+    classList : 'animate__animated animate__fadeIn insta-photo',
+    src : '/assets/photo5.png'
+  },
 ]
 
 function InstagramFeed () {
