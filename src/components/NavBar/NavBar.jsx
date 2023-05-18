@@ -1,8 +1,7 @@
+/* eslint-disable react/prop-types */
 import './NavBar.css'
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
-function NavBar(){
-  const [ isOpen, setIsOpen ] = useState(false)
+function NavBar({isOpen, setIsOpen}){
 
   function handleDropMenuClick () {
     setIsOpen(!isOpen)
@@ -15,7 +14,7 @@ function NavBar(){
 
   return (
     <>
-    <nav>
+    <nav className='navbar'>
       <Link to='/'><img className='logo' src="/assets/logo.png" alt="school-logo"/></Link>
     <img className='menu-buttons' onClick={handleDropMenuClick} src="/assets/menuButtons.png" alt="menu"/>
     </nav>
