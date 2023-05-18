@@ -13,8 +13,8 @@ import './LandingPage.css'
 function LandingPage() {
   const [ isOpen, setIsOpen ] = useState(false)
   function closeMenu(e){
-    if((e.target.className == 'navbar') || (e.target.className == 'menu-buttons') || (e.target.className == 'navbar')){
-      setIsOpen(true)
+    if( (e.target.className == 'menu-buttons') ){
+      setIsOpen(!isOpen)
       console.log('hello')
     } else setIsOpen(false)
   }
