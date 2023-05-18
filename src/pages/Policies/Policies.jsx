@@ -13,7 +13,7 @@ const Policies = () => {
   }
   return (
     <div className='policies-main' onClick={closeMenu}>
-      <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
+      <NavBar isOpen={isOpen} location='policies' setIsOpen={setIsOpen} />
       <PoliciesList />
     </div>
 )

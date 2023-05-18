@@ -20,7 +20,7 @@ function LandingPage() {
   }
   return (
     <main onClick={closeMenu}>
-      <NavBar isOpen={isOpen} setIsOpen={setIsOpen} />
+      <NavBar isOpen={isOpen} location='landing' setIsOpen={setIsOpen} />
       <Banner />
       <SubBanner />
       <Pricing /> 
