@@ -8,7 +8,6 @@ const Policies = () => {
   function closeMenu(e){
     if((e.target.className == 'menu-buttons')){
       setIsOpen(!isOpen)
-      console.log('hello')
     } else setIsOpen(false)
   }
   return (

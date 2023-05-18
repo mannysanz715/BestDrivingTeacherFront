@@ -3,7 +3,6 @@ import './NavBar.css'
 import { Link } from 'react-router-dom'
 function NavBar({ isOpen, location }){
 
-  console.log(location)
 
   const scrollToTop = () => {
     window.scrollTo(0, 0)
@@ -18,7 +17,7 @@ function NavBar({ isOpen, location }){
     <img className='menu-buttons'  src="/assets/menuButtons.png" alt="menu"/>
     </nav>
     { isOpen && 
-      <ul  className='drop-menu'>
+      <ul  className='drop-menu animate__fadeInDown animate__animated'>
         {location ==='landing' ?<> 
           <a  href=''> <li className="menu-item">Home</li></a>
           <a  href="#about-us"><li className="menu-item">About Us</li></a>
