@@ -46,6 +46,10 @@ header{
   text-align: center;
   text-decoration: none;
 }
+.banner-buttons{
+  display: flex;
+  flex-direction: column;
+}
 
 .call-button{
   margin-bottom: 40px;
@@ -53,5 +57,49 @@ header{
 }
 
 .rates-button{
+  margin-bottom: 40px;
   background-color: var(--red-color);
+}
+
+
+@media screen and (min-width: 950px) {
+  header {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .banner-title{
+    font-size: 42px;
+    width: 350px;
+  }
+  .banner-description{
+    text-align: center;
+    font-size: 22px;
+    width: 450px;
+  }
+  .banner-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .banner-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .button{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+
+  .logo-banner{
+    width: 30%;
+  }
 }
