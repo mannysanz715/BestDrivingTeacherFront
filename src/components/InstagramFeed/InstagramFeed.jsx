@@ -5,22 +5,11 @@ const photos = [
   {
     classList : 'animate__animated animate__fadeIn insta-photo',
     src : '/assets/photo1.png'},
-  // { 
-  //   classList : 'animate__animated animate__fadeIn insta-photo',
-  //   src : '/assets/photo2.png'
-  // },
   { 
     classList : 'animate__animated animate__fadeIn insta-photo',
     src : '/assets/photo3.png'
   },
-  // {
-  //   classList : 'animate__animated animate__fadeIn insta-photo',
-  //   src : '/assets/photo4.png'
-  // },
-  // {
-  //   classList : 'animate__animated animate__fadeIn insta-photo',
-  //   src : '/assets/photo5.png'
-  // },
+
 ]
 
 function InstagramFeed () {
