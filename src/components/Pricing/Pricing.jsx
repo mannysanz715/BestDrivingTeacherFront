@@ -21,6 +21,8 @@ useEffect(()=>{
           <p className='rate-price'>Price: $150</p>
           <p className='rate-description'>This includes pick up and drop off within Los Angeles</p>
           <p className='rate-description'>Training during the entire lesson.</p>
+          <p className='rate-description'>Private lesson with patient and experienced instructors.</p>
+          <p className='rate-description'>Confidence with safetey features such as dual controll systems for instructos.</p>
         </div>
         <div data-aos='fade-up' className="drive-test-pricing card end">
           <h3 className='rate-title'>Behind the Wheel Test</h3>

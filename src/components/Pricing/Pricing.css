@@ -55,7 +55,7 @@
   }
   .card{
     width: 500px;
-    height: 550px;
+    height: 650px;
     display: flex;
     align-items: center;
   }
@@ -67,7 +67,7 @@
     font-size: 30px;
   }
   .rate-description{
-    font-size: 24px;
+    font-size: 22px;
     width: 400px;
   }
 
