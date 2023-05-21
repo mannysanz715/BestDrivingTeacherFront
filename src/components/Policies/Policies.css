@@ -37,3 +37,16 @@
   border-radius: 15px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+
+@media screen and (min-width: 950px) {
+  .policies-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .policy-item{
+    width: 600px;
+  }
+}
