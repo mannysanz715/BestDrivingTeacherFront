@@ -9,7 +9,7 @@ function PhotoCard (props) {
         // set number every 5s
         () => {
           document.querySelector('.insta-photo').classList.remove('animate__fadeIn')
-          setNumber(Math.floor(Math.random() * 5))
+          setNumber(Math.floor(Math.random() * 2))
         }, 5001);
         
       // clean up interval on unmount

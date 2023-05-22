@@ -45,3 +45,33 @@
   color: black;
   width: 350px;
 }
+
+@media screen and (min-width: 950px) {
+  .pricing-header{
+    font-size: 46px;
+  }
+  .pricing-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+  }
+  .card{
+    width: 500px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+  }
+
+  .rate-price{
+    font-size: 30px;
+  }
+  .rate-title{
+    font-size: 30px;
+  }
+  .rate-description{
+    font-size: 22px;
+    width: 400px;
+  }
+
+}
