@@ -19,18 +19,18 @@ useEffect(()=>{
         <div data-aos='fade-up' className="reg-class-pricing card">
           <h3 className='rate-title'>2 Hour Lessons</h3>
           <p className='rate-price'>Price: $150</p>
-          <p className='rate-description'>This includes pick up and drop off within Los Angeles</p>
+          <p className='rate-description'>Pick up and drop off within the Los Angeles area.</p>
           <p className='rate-description'>Training during the entire lesson.</p>
           <p className='rate-description'>Private lesson with patient and experienced instructors.</p>
-          <p className='rate-description'>Confidence with safetey features such as dual controll systems for instructos.</p>
+          <p className='rate-description'>Confidence with safetey features such as dual controll systems for instructors.</p>
         </div>
         <div data-aos='fade-up' className="drive-test-pricing card end">
           <h3 className='rate-title'>Behind the Wheel Test</h3>
           <p className='rate-price'>Price: $225</p>
-          <p className='rate-description'>This includes pick up within Los Angeles 1 hour prior to DMV appointment time.</p>
-          <p className='rate-description'>All registration and paper work taken care of.</p>
-          <p className='rate-description'>Vehicle for the actual exam.</p>
-          <p className='rate-description'>And drop off in Los Angeles</p>
+          <p className='rate-description'>Pick up within the Los Angeles area 1 hour prior to DMV appointment time.</p>
+          <p className='rate-description'>All registration and paper work taken care of with DMV.</p>
+          <p className='rate-description'>Vehicle for the driving exam.</p>
+          <p className='rate-description'>And drop off in the Los Angeles area.</p>
           <p className='rate-description'><strong>This is a flat rate, whether student passes or fails</strong></p>
         </div>
         </div>
