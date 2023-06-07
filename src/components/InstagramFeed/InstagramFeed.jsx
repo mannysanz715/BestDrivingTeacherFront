@@ -9,7 +9,6 @@ const photos = [
     classList : 'animate__animated animate__fadeIn insta-photo',
     src : '/assets/photo3.png'
   },
-
 ]
 
 function InstagramFeed () {
