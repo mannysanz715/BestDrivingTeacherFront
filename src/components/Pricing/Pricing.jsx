@@ -23,7 +23,7 @@ useEffect(()=>{
           <p className='rate-description'>Pick up and drop off within the Los Angeles area.</p>
           <p className='rate-description'>Training during the entire lesson.</p>
           <p className='rate-description'>Private lesson with patient and experienced instructors.</p>
-          <p className='rate-description'>Confidence with safetey features such as dual controll systems for instructors.</p>
+          <p className='rate-description'>Confidence with safety features such as dual controll systems for instructors.</p>
         </div>
         <div data-aos='fade-up' className="drive-test-pricing card">
           <h3 className='rate-title'>Lesson Packages</h3>
