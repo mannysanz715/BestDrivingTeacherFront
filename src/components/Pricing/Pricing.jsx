@@ -28,10 +28,10 @@ useEffect(()=>{
         <div data-aos='fade-up' className="drive-test-pricing card">
           <h3 className='rate-title'>Lesson Packages</h3>
           <p className='rate-price'> Silver Package : $450</p>
-          <p className='rate-description center-text'>Inlcudes  3 Driving Lessons, Each 2 Hours.</p>
+          <p className='rate-description center-text'>Inlcudes  3 lessons(6 hours).</p>
           <p className='rate-description center-text'>DMV 6 Hour Certificate Compliant.</p>
           <p className='rate-price'> Gold Package : $700</p>
-          <p className='rate-description center-text'>Inlcudes  5 Driving Lessons, Each 2 Hours.</p>
+          <p className='rate-description center-text'>Inlcudes  5 lessons(10 hours).</p>
           <p className='rate-description center-text'>DMV 6 Hour Certificate Compliant.</p>
         </div>
         <div data-aos='fade-up' className="drive-test-pricing card end">
