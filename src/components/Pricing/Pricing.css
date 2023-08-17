@@ -45,7 +45,9 @@
   color: black;
   width: 350px;
 }
-
+.center-text{
+    text-align: center;
+  }
 @media screen and (min-width: 950px) {
   .pricing-header{
     font-size: 46px;
@@ -72,6 +74,10 @@
   .rate-description{
     font-size: 22px;
     width: 400px;
+  }
+
+  .center-text{
+    text-align: center;
   }
 
 }
