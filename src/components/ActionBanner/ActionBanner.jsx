@@ -7,7 +7,8 @@ function ActionBanner() {
       <a className='action-banner-button' href="tel: +1 (213) 841-1290">
         +1 (213) 814 - 1290
       </a>
-
+      <h1 className="action-banner-title">Location:</h1>
+      <p className='action-banner-button'>925 N Labrea, 4th Floor, Suite 429</p>
 
     </div>
 
