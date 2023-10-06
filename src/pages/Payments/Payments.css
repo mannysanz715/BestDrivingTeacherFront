@@ -1,0 +1,35 @@
+.list-container{
+  display: flex;
+  margin-top: 120px;
+  padding: 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.payment-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+@media screen and (max-width: 950px) {
+  .list-container{
+    flex-direction:column ;
+    gap: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .payment-container{
+    border-radius: 8%;
+  }
+
+  .payment-title{
+    font-size: 22px;
+    text-align: center;
+  }
+}
